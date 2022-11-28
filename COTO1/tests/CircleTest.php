@@ -1,11 +1,10 @@
 <?php
 namespace Github\Src;
 require_once __DIR__ . '/../vendor/autoload.php';
-// require_once __DIR__ . '/../src/Circle.php';
 use Github\Src\Circle;
-use Github\Src\Rectangle;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
+
 class CircleTest extends TestCase
 {
     /**
