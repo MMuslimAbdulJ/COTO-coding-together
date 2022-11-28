@@ -1,0 +1,24 @@
+{
+  "name": "mmuslimabdulj/coto",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Github\\Src\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Github\\Src\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "MMuslimAbdulJ",
+      "email": "mmuslimabdulj@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "9.5.5"
+  }
+}
