@@ -38,8 +38,8 @@ class CircleTest extends TestCase
 
     public function test_inherits_from_shape()
     {
-        $rectangle = new Rectangle(2,5);
-        $this->assertEquals('Github\Src\Shape', get_parent_class($rectangle));
+        $circle = new Circle(5);
+        $this->assertEquals('Github\Src\Shape', get_parent_class($circle));
     }
 
     public function test_shape_type() {

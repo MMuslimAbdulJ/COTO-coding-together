@@ -3,7 +3,6 @@ namespace Github\Src;
 require_once __DIR__ . '/../src/Rectangle.php';
 use Github\Src\Rectangle;
 use PHPUnit\Framework\TestCase;
-use ReflectionClass;
 
 class RectangleTest extends TestCase
 {
